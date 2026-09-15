@@ -79,3 +79,6 @@ this contains necessary steps to increase internet connectivity in fedora kde an
 >Change the Method drop-down to Disabled or Ignore.
 
 >Click Apply.
+
+
+3>Enable BBR Congestion Control :-
