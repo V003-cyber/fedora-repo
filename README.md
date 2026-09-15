@@ -64,21 +64,4 @@ this contains necessary steps to increase internet connectivity in fedora kde an
 
 
 
-2> Disable IPv6 configuration (from kde system settings) :-
-
-
-
->Open System Settings.
-
->Go to Wi-Fi & Networking (or Connections).
-
->Select your active wifi/Ethernet network.
-
->Goto IPv6 tab.
-
->Change the Method drop-down to Disabled or Ignore.
-
->Click Apply.
-
-
-3>Enable BBR Congestion Control :-
+2>Enable BBR Congestion Control :-
