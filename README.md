@@ -41,12 +41,10 @@ this contains necessary steps to increase internet connectivity in fedora kde an
 
 
 ```(Create a configuration override file) :-```
-
 sudo nano /etc/NetworkManager/conf.d/default-wifi-powersave.conf
 
 
 ```Paste the following text in the editor :-```
-
 [connection]
 
 wifi.powersave = 2
@@ -55,7 +53,6 @@ wifi.powersave = 2
 ```Press Ctrl+O to save then enter then  Ctrl+x to exit```
 
 ```Restart Network Manager :-```
-
 sudo systemctl restart NetworkManager
 
 
