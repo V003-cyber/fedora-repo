@@ -47,9 +47,7 @@ sudo nano /etc/NetworkManager/conf.d/default-wifi-powersave.conf
 
 >Paste the following text in the editor :-
 
-[connection]
-
-wifi.powersave = 2
+[connection]\nwifi.powersave = 2
 
 
 Press Ctrl+O to save then enter then  Ctrl+x to exit
