@@ -17,11 +17,13 @@ This is text based repository to add all necessary texts , commands , and info r
 
 ```Enable Full Flatahub Integration :-```
 >flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
 >flatapk remote-modify --enable flathub
 
 
 ```Add RPM Fusion Repositories :-```
 >sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm 
+
 >sudo dnf install https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
 
@@ -31,9 +33,14 @@ This is text based repository to add all necessary texts , commands , and info r
 
 ```Install NVIDIA propietary drivers & cuda support :-```
 >sudo dnf install akmod-nvidia xorg-x11-drv-nvidia-cuda
+
 >sudo reboot 
+
 >modinfo -F version nvidia
+
 >nvidia-smi
+
+
 
 # vs code integration for fedora kde :-
 
@@ -81,7 +88,6 @@ this contains necessary steps to increase internet connectivity in fedora kde an
 
 ``` Paste the following text in the editor :-```
 
-
 >[connection]
 
 >wifi.powersave = 2
@@ -103,19 +109,16 @@ this contains necessary steps to increase internet connectivity in fedora kde an
 
 ```Open Terminal and Run :-```
 
-
 >sudo nano /etc/sysctl.d/99-bbr.conf
 
 
 ```Add the following line :-```
-
 
 >net.core.default_qdisc = fq
 >net.ipv4.tcp_congestion_control = bbr
 
 
 ``` Verify BBR is Enabled :-```
-
 
 >sysctl net.ipv4.tcp_congestion_control
 
