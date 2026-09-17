@@ -2,4 +2,5 @@ So users as you have come across this repo i would like to tell you about the ai
 and it runs locally on my laptop and all my chat history remains intact to my laptop no cloud server storing and no data is
 being shared anywhere. this text file contains some info about model and steps to setup it in fedora kde.
 
-There are 
+There are many local ai models in the industry and they have there different ram requirements but  i have chosed meta's 
+2billion's parameter model called llama gemma2 . It is a light weight model and takes only 2gb of ram and also by 
