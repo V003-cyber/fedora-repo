@@ -4,3 +4,30 @@ being shared anywhere. this text file contains some info about model and steps t
 
 There are many local ai models in the industry and they have there different ram requirements but  i have chosed meta's 
 2billion's parameter model called llama gemma2 . It is a light weight model and takes only 2gb of ram and also by 
+my experience and testing this model is better than the available models in the market of same configuration  and light
+weight models like llama3:3.5b , qwen2.5:2.5b , etc . the resoning and analysis  power of this model is better and more 
+accurate than the others .
+
+The platform that i use to run the models is ollama . It is an free open source platform to run large language models .
+It doesn't has any subscription involved .
+And also I have integrated in my default konsole of fedora kde.
+
+Here are the steps to setup :-
+
+>sudo dnf install ollama
+
+>sudo systemctl enable --now ollama
+
+>ollama run gemma2:2b
+
+
+
+I have also named my model and it gets triggered with that name and to do this steps are :-
+
+> nano ~/.bashrc
+
+alias era = 'ollama run gemma2:2b'
+
+>press ctrl+o then enter then ctrl+x
+
+>source ~/.bashrc
