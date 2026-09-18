@@ -14,20 +14,20 @@ And also I have integrated in my default konsole of fedora kde.
 
 Here are the steps to setup :-
 
->sudo dnf install ollama
+sudo dnf install ollama
 
->sudo systemctl enable --now ollama
+sudo systemctl enable --now ollama
 
->ollama run gemma2:2b
+ollama run gemma2:2b
 
 
 
 I have also named my model and it gets triggered with that name and to do this steps are :-
 
-> nano ~/.bashrc
+nano ~/.bashrc
 
-alias era = 'ollama run gemma2:2b'
+alias era = 'ollama run gemma2:2b'   (add the files at the bottom of the nano bashrc file)
 
->press ctrl+o then enter then ctrl+x
+press ctrl+o then enter then ctrl+x
 
->source ~/.bashrc
+source ~/.bashrc
