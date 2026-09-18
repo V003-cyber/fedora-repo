@@ -1,0 +1,17 @@
+Think Aliases as the shortcuts in linux specific for long commands which we use daily . These make the tasks easier and also
+easy and make the konsole look clean when executed . Aliases are always created in the bashrc file . 
+i create the alias by folowing the steps : 
+
+nano ~/.bashrc 
+type the alias command here then ctrl+o to save then enter then ctrl+x to exit then
+source ~/.bashrc
+
+I have created Aliases for different tasks for daily use :-
+
+1> alias 007 = 'sudo dnf upgrade --refresh && sudo dnf autoremove && sudo dnf clean all'     
+
+(basically this alias updates my system fully , remove unnecessary files automatically and cleans the system by removing cache
+file).
+
+
+2> alias 12 = 'speed-cli'
