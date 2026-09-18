@@ -14,4 +14,7 @@ I have created Aliases for different tasks for daily use :-
 file).
 
 
-2> alias 12 = 'speed-cli'
+2> alias 12 = 'speedtest-cli'
+
+(basically this is a client used to check internet speed via linux's konsole and it is installed by running 
+sudo dnf install speedtest-cli)
