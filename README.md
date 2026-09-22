@@ -40,6 +40,8 @@ This is text based repository to add all necessary texts , commands , and info r
 
 >nvidia-smi
 
+>sudo dnf install git curl wget 
+
 
 
 # vs code integration for fedora kde :-
