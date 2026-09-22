@@ -73,6 +73,27 @@ this contains the commands to configure vscode properly in fedora kde so that it
 >code --version
 
 
+```For VS-Code to detect your repo and Edit files in it :-```
+
+>first git clone (link of the repo)
+
+>approve the request on github profile for vscode to get connected
+
+```then in the konsole of fedora kde configure git via user name and Email-id(that in  github) by using the commands```
+
+>git config --global user.name "Your Name"
+
+>git config --global user.email "Your Email"
+
+>then edit your files in github repo and save them via ctrl+s
+
+>now open the terminal in vs code where you  cloned your repo and enter the foleder of cloned repo via (cd foldername)
+
+>then git add .   (to add the files)
+
+>git commit -m "Add these files"    (to commit the changes being made)
+
+>git push origin main   (to push the changes through the github so that the changes become permanent)
 
 
 # Increase Internet Connectivity :-
